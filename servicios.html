@@ -13,7 +13,7 @@
     <div class="container">
     
     <header class="container_header">
-        <nav class="menu navbar navbar-expand-sm bg-body-tertiary">
+        <nav class="menu navbar navbar-expand-sm bg-body-tertiary fixed-top">
             <div class="container_fluid">
                 <a class="navbar-brand" href="index.html">
                 <img class="menu_logo d-inline-block align-top" src="img/278923824-5f4ce069-e9ca-4d5e-a8d8-101b8fd01862.png" alt="logo" width="30" height="30">
@@ -59,7 +59,7 @@
         </nav>
     </header>
 
-    <main class="container_main">
+    <main class="container_main pt-5 mt-5">
         <section class="serv">
                 <header>
                 <h1>Nuestros servicios</h1>
@@ -69,12 +69,38 @@
             
            
             <article class="serv_alojamiento">
+                
+                <div class="col-md-4 d-inline-block">
                 <header>
                     <h2 id="scrollspyHeading1">Alojamiento</h2>
                 </header>
                 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore libero quidem repellat beatae quis sed, amet facere dignissimos perferendis id non ipsa eveniet corrupti dolorem. Laudantium, voluptatibus! Voluptatibus, maxime itaque.</p>
-                 <img src="" alt="" class="serv_imgs"> <!-- Podriamos hacer un carrusel de imagenes-->
+                </div>
+
+                <div class="col-md-7 d-inline-block">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/Slide1.jpg" class="d-block w-100 serv_imgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/Slide2.jpg" class="d-block w-100 serv_imgs" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/Slide3.jpg" class="d-block w-100 serv_imgs" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
             </article>
     
             <article class="serv_gastronomia">
