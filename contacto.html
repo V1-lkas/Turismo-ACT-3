@@ -65,20 +65,25 @@
         <p>No dudes en dejar tu consulta</p>
 
         <form  action="https://formspree.io/f/mzbqqolg" method="post">
-
-            <label for="nombre">Su nombre:</label>
-                <input required placeholder="Nombre" id="nombre" name="nombreUsuario" type="text">
+            <div class="form-floating mb-3">
+                <label for="nombre">Su nombre:</label>
+                    <input required placeholder="Nombre" id="nombre" name="nombreUsuario" type="text">
+            </div>
+            <div class="mb-3">    
+                <label for="email exampleInputEmail1" class="form-label">Correo electrónico:</label>
+                    <input required placeholder="E-mail" id="exampleInputEmail1" aria-describedby="emailHelp" type="email" name="mail" class="form-control">
+                    <div id="emailHelp" class="form-text">Su privacidad es importante para nosotros.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="basesycon">Acepto las bases y condiciones</label>
+                <input type="checkbox" name="bases\_y\_condiciones" id="basesycon" value="acepta">
+            </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             
-            <label for="email">Correo electrónico:</label>
-                <input required placeholder="E-mail" id="email" type="email" name="mail">
-            
-            <label>Dejanos tu consulta: <br>
-            <textarea name="consulta" cols="40" rows="10" placeholder="Escriba aquí:"></textarea>
-            </label>
-            <label for="basesycon">Acepto las bases y condiciones</label>
-            <input type="checkbox" name="bases\_y\_condiciones" id="basesycon" value="acepta">
-            
-            <input type="submit">
         </form>
 
         <h2>Encontranos en nuestras redes:</h2>
