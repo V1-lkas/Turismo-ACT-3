@@ -6,29 +6,29 @@
   }
     
   
-.logo{
+/* .logo{
     width: 100px;
     align-content:center
-}
+} */
 body{
     
     font-family:'Roboto' Arial, Helvetica, sans-serif;
 }
 
 
-#logo{
+/* #logo{
     margin: 10px 5px;
     border:3px solid black ;
     padding: 7px; ;
-}
-header div{
+} */
+/* header div{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content:center;
     height: 250px;
-}
+} */
 .row {
     display: -webkit-flex;
     display: flex;
@@ -45,13 +45,11 @@ header div{
       margin: 2px;
      padding: 10px;
      height: 300px;
-
-
-}
-nav a{
+} 
+/* nav a{
     color: rgb(15, 2, 29);
     text-decoration: none;
 
-}
+} */
 
 
