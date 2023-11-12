@@ -13,7 +13,10 @@
 body{
     
     font-family:'Roboto' Arial, Helvetica, sans-serif;
+    
 }
+
+.container_main{font-size: calc(16px + 0.5vw);}
 
 
 /* #logo{
@@ -51,5 +54,12 @@ body{
     text-decoration: none;
 
 } */
+
+/* Portada */
+
+.portada_img{max-height: 600px;
+width: 100%;}
+
+.serv_carrousel1{max-height: 400px;}
 
 
