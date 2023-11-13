@@ -53,9 +53,9 @@ body{
 
 /* Portada */
 
-.portada_img{max-height: 600px;
-width: 100%;}
+.portada_img{object-fit:cover;
+height: 45vw;}
 
-.serv_carrousel1{max-height: 400px;}
+.serv_carrousel1{max-height:45vw;}
 
 
