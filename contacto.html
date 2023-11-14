@@ -5,108 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
-
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Contacto</title>
 </head>
 
 <body>
-<div class="container">
-
-    <header class="container_header">
-        <nav class="menu navbar navbar-expand-sm bg-body-tertiary fixed-top">
-            <div class="container_fluid">
-                <a class="navbar-brand" href="index.html">
-                <img class="menu_logo d-inline-block align-top" src="img/278923824-5f4ce069-e9ca-4d5e-a8d8-101b8fd01862.png" alt="logo" width="30" height="30">
-                Turismo la Cumbrecita
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="menu_button nav-link"  href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="menu_button nav-link" href="quienes somos.html">Quienes somos</a>
-                        </li>
-                        <li class="nav-item dropdown" aria-current="page">
-                            <a class="menu_button nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="servicios.html#scrollspyHeading1">Alojamiento</a>
+    <div class="container-fluid p-lg-0">
+        <header class="container_header position-relative">
+            <nav class="menu navbar navbar-expand-sm bg-body-tertiary fixed-top">
+                <div class="container-fluid flex-row justify-content-lg-between">
+                    <div>
+                        <a class="navbar-brand" href="index.html">
+                            <img class="menu_logo d-inline-block align-top" src="img/278923824-5f4ce069-e9ca-4d5e-a8d8-101b8fd01862.png" alt="logo" width="30" height="30">
+                            Turismo la Cumbrecita
+                        </a>
+                    </div>
+                    <div class="justify-content-end">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="menu_button nav-link"  href="index.html">Inicio</a>
                                 </li>
-                                <li>
-                                    <a class="dropdown-item" href="#servicios.html#scrollspyHeading2">Gastronomia</a>
+                                <li class="nav-item">
+                                    <a class="menu_button nav-link" href="quienes somos.html">Quienes somos</a>
                                 </li>
-                                <li>
-                                    <a class="dropdown-item" href="servicios.html#scrollspyHeading3">Actividades</a>
+                                <li class="nav-item dropdown">
+                                    <a class="menu_button nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="servicios.html#scrollspyHeading1">Alojamiento</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="servicios.html#scrollspyHeading2">Gastronomia</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="servicios.html#scrollspyHeading3">Actividades</a>
+                                    </li>
+                                </ul>
+                                </li>
+                                <li  class="nav-item">
+                                    <a class="menu_button nav-link" href="galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item active" aria-current="page">
+                                    <a class="menu_button nav-link" href="contacto.html">Contacto</a> 
+                            
                                 </li>
                             </ul>
-                        </li>
-                
-                        <li  class="nav-item">
-                            <a class="menu_button nav-link" href="galeria.html">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="menu_button nav-link active" href="contacto.html">Contacto</a> 
-                        
-                        </li>
-                    </ul>
-                </div>
+                        </div>
+                    </div>
+                </div> 
+            </nav>
 
-            </div> 
-        </nav>
-
-        <!-- carrousel portada -->
-        <div id="carouselExampleSlidesOnly" class="carousel slide pt-5 mt-5 portada" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <!-- carrousel portada -->
+            <div id="carouselExampleSlidesOnly" class=" carousel slide carousel-fade pt-lg-2 mt-5 portada" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3700">
+                <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/cumbrecita.jpg" class="d-block w-100 portada_img" alt="...">
+                    <img src="img/cumbrecita.jpg" class="d-block w-100  portada_img" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/cumbrecita1.jpg" class="d-block w-100 portada_img" alt="...">
+                    <img src="img/cumbrecita1.jpg" class="d-block w-100  portada_img" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="img/Slide4.jpg" class="d-block w-100 portada_img" alt="...">
                 </div>
+                </div>
             </div>
+        </header>
+
+    <main class="container_main pt-5">
+        <div class="container">
+
+            <h1>Contactanos</h1>
+            <p>No dudes en dejar tu consulta</p>
+
+            <form  action="https://formspree.io/f/mzbqqolg" method="post">
+                <div class="mb-3">
+                    <label for="nombre">Su nombre:</label>
+                        <input required placeholder="Nombre" id="nombre" name="nombreUsuario" type="text">
+                </div>
+                <div class="mb-3">    
+                    <label for="email exampleInputEmail1" class="form-label">Correo electrónico:</label>
+                        <input required placeholder="E-mail" id="exampleInputEmail1" aria-describedby="emailHelp" type="email" name="mail" class="form-control">
+                        <div id="emailHelp" class="form-text">Su privacidad es importante para nosotros.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="basesycon">Acepto las bases y condiciones</label>
+                    <input type="checkbox" name="bases\_y\_condiciones" id="basesycon" value="acepta">
+                </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                
+            </form>
+
+            <h2>Encontranos en nuestras redes:</h2>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
         </div>
-    </header>
-
-
-    <main class="container_main pt-5 mt-5">
-
-        
-        <h1>Contactanos</h1>
-        <p>No dudes en dejar tu consulta</p>
-
-        <form  action="https://formspree.io/f/mzbqqolg" method="post">
-            <div class="mb-3">
-                <label for="nombre">Su nombre:</label>
-                    <input required placeholder="Nombre" id="nombre" name="nombreUsuario" type="text">
-            </div>
-            <div class="mb-3">    
-                <label for="email exampleInputEmail1" class="form-label">Correo electrónico:</label>
-                    <input required placeholder="E-mail" id="exampleInputEmail1" aria-describedby="emailHelp" type="email" name="mail" class="form-control">
-                    <div id="emailHelp" class="form-text">Su privacidad es importante para nosotros.</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-            </div>
-            <div class="mb-3">
-                <label for="basesycon">Acepto las bases y condiciones</label>
-                <input type="checkbox" name="bases\_y\_condiciones" id="basesycon" value="acepta">
-            </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            
-        </form>
-
-        <h2>Encontranos en nuestras redes:</h2>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
     </main> 
     <footer>
         <div id="copy">
