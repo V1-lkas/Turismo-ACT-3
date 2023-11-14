@@ -34,7 +34,7 @@ body{
     
 }
 
-.container_main{font-size: calc(16px + 0.5vw);}
+.container_main{font-size: 1.6vw;}
 
 
 /* #logo{
@@ -54,6 +54,7 @@ body{
     display: -webkit-flex;
     display: flex;
 }
+
 /*create trhee equal columns thats sits next to ech other*/
 .col-3{
     width: 25px;
@@ -67,17 +68,12 @@ body{
      padding: 10px;
      height: 300px;
 } 
-/* nav a{
-    color: rgb(15, 2, 29);
-    text-decoration: none;
-
-} */
 
 /* Portada */
 
-.portada_img{max-height: 600px;
-width: 100%;}
+.portada_img{object-fit:cover;
+height: 45vw;}
 
-.serv_carrousel1{max-height: 400px;}
+.serv_carrousel1{max-height:45vw;}
 
 
