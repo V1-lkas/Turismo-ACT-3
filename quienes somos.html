@@ -2,71 +2,121 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>turismo CBA La Cumbrecita</title>
     <link rel="shortcut icon" href="icono-turismo.png" type="image/x-icon">
-   
-     <meta name="description" content="Encontra un lugar maravilloso para disfrutar">
-     <meta name="keywords" content=" cumbrecita,paisaje,verde,cascada,silencio,colores,peatonal">
-     <link rel="stylesheet" href="css/estilos.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <meta name="description" content="Encontra un lugar maravilloso para disfrutar">
+    <meta name="keywords" content=" cumbrecita,paisaje,verde,cascada,silencio,colores,peatonal">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
 </head> 
 <body>
 
-    <div class="container">
+    <div class="container-fluid p-lg-0">
     
-     <div class="header bg-warning">
-      
-
-     <a href="index.html"><img src="icono-turismo.png" alt="100" height=""></a>
-    <div>
-        <nav>
-            <a href="index.html">Inicio</a>  |
-            <a href="quienes somos.html">Quienes somos</a>   |
-            <a href="servicios.html"> Servicios</a>    |
-            <a href="galeria.html"> Galeria</a>           |
-            <a href="contacto.html">Contacto</a>        |
-        </nav>
-    </div>
-</header>
-</div>
-<main>
-    <div>
-    <h1> Nos presentamos</h1>
-<section id=" guias "> 
-    <i class="fa-solid fa-person"></i>
-
-    <div  class="row">
-        <div class="column">
+        <header class="container_header position-relative">
+            <nav class="menu navbar navbar-expand-sm bg-body-tertiary fixed-top">
+                <div class="container-fluid flex-row justify-content-lg-between">
+                    <div>
+                        <a class="navbar-brand" href="index.html">
+                            <img class="menu_logo d-inline-block align-top" src="img/278923824-5f4ce069-e9ca-4d5e-a8d8-101b8fd01862.png" alt="logo" width="30" height="30">
+                            Turismo la Cumbrecita
+                        </a>
+                    </div>
+                    <div class="justify-content-end">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="menu_button nav-link"  href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="menu_button nav-link" href="quienes somos.html">Quienes somos</a>
+                                </li>
+                                <li class="nav-item dropdown active" aria-current="page">
+                                    <a class="menu_button nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="servicios.html#scrollspyHeading1">Alojamiento</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="servicios.html#scrollspyHeading2">Gastronomia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="servicios.html#scrollspyHeading3">Actividades</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li  class="nav-item">
+                                    <a class="menu_button nav-link" href="galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="menu_button nav-link" href="contacto.html">Contacto</a> 
     
-    <h2> Guia 1 </h2>
-    <img src="guia 1.png" width="80" alt="80" >
-    <p> Mi nombre es Anahi Gordillo y junto a mis colegas soy colaboradora en el armado de la pagina para mostrarte una de las mas lindas ciudades de Córdoba</p>
-</div> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </nav>
 
-        <div class="column">
-            
-
-        <h3> Guia 2</h3>
-        <img src="guia 2.png" width="80" alt="80">
-        <p></p>Mi nombre es Bettina  Linares , en esta pagina deseo que conozcas una ciudad peatonal ubicada muy cerquita  de la capital Córdoba</p>
+            <!-- carrousel portada -->
+            <div id="carouselExampleSlidesOnly" class=" carousel slide carousel-fade pt-lg-2 mt-5 portada" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3700">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/cumbrecita.jpg" class="d-block w-100  portada_img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/cumbrecita1.jpg" class="d-block w-100  portada_img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Slide4.jpg" class="d-block w-100 portada_img" alt="...">
+                    </div>
+                </div>
+            </div>
+        </header>
     </div>
-    
-        <div class="column">
-        <h4> Guia 3</h4>
-        <img src="guia 3.png" width="80"alt="80">
-        <p>  </p>
-    </div>
 
-</section></div>
+
+    <main class="container_main pt-5">
+        <div class="container">
+            <h1> Nos presentamos</h1>
+            <section id="guias "> 
+                <i class="fa-solid fa-person"></i>
+
+        <div  class="row">
+            <div class="column">
+                <h3> Guia 1</h3>
+                <img src="img/guia 2.png" width="100" alt="100">
+                <p>Mi nombre es Anahi Gordillo y junto a mis colegas   soy colaboradora en el armado de la pagina para  mostrarte una de las ciudades mas lindas de Córdoba</p>
+            </div>
+
+            <div class="column">
+                <h3> Guia 3</h3>
+                <img src="img/guia 2.png" width="100" alt="100">
+                <p>Mi nombre es Bettina  Linares , en esta pagina deseo que conozcas una ciudad peatonal ubicada muy cerquita  de la capital Córdoba</p>
+            </div>
+            <div class="column">
+                <h4> Guia 3</h4>
+                    <img src="img/guia 3.png" width="100"alt="100">
+                    <p></p> 
+            </div>
+        </div>
+
+          </section>
+        </div>
 </main>
-<footer>
+    <footer>
     
-    <div id="copy">
-        ©creado 2023  Turismo La cumbrecita
-    </div>
-</footer>
+        <div id="copy">
+            <div>
+                <id class= "fa fa-copyriaght" aria-hidden= "true" &Creado 2023 ></i>
+            </div>
+            ©creado 2023  Turismo La cumbrecita
+        </div>
+    </footer>
 </body>
 </html>
