@@ -9,11 +9,9 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 9%, rgba(168,253,45,0.92200
   }
     
   h1{
-    font-family: ;
     font-size: 22px;
   }
   h2{
-    font-family: ;
     font-size: 18px;
     text-decoration: dotted;
   }
@@ -24,17 +22,12 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 9%, rgba(168,253,45,0.92200
   p{
     font-size:12;
   }
-/* .logo{
-    width: 100px;
-    align-content:center
-} */
+
 body{
     margin: 10px;
     font-family:'Roboto' Arial, Helvetica, sans-serif;
     
 }
-
-.container_main{font-size: 1.6vw;}
 
 
 /* #logo{
@@ -50,6 +43,7 @@ body{
     justify-content:center;
     height: 250px;
 } */
+
 .row {
     display: -webkit-flex;
     display: flex;
@@ -69,6 +63,7 @@ body{
      height: 300px;
 } 
 
+
 /* Portada */
 
 .portada_img{object-fit:cover;
@@ -78,7 +73,7 @@ height: 45vw;}
 
 /* Contacto */
 
-.cotainer_redes{height: 10vw;
+.container_redes{height: 3vw;
 width: auto;}
 
 
