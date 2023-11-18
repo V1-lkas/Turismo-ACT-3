@@ -76,4 +76,11 @@ height: 45vw;}
 .container_redes{height: 3vw;
 width: auto;}
 
+.container_form{width:450px;
+  background-color:whitesmoke;
+  padding: 5px 10px;
+  border: 10px;
+  border-color: rgb(234, 234, 234);}
+  
+
 
