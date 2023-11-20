@@ -9,24 +9,25 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 9%, rgba(168,253,45,0.92200
   }
     
   h1{
-    font-size: 22px;
+    font-size: 28px;
+    text-align: center;
   }
-  h2{
-    font-size: 18px;
-    text-decoration: dotted;
-  }
-  h3{ font-size: 20px;
-    
 
+  h2{
+    font-size: 22px;
+    text-decoration: dotted;
+    text-align: center;
   }
-  p{
-    font-size:140%;
-  }
+  
+  h3{font-size: 18px;
+  text-align: center;}
+
+  p{font-size:140%;
+  margin: 5px;}
 
 body{
     margin: 10px;
-    font-family:'Roboto' Arial, Helvetica, sans-serif;
-    
+    font-family:'Roboto' Arial, Helvetica, sans-serif;    
 }
 
 
@@ -36,7 +37,10 @@ body{
 .row {display: -webkit-flex;
     display: flex;}
 
-/*create trhee equal columns thats sits next to ech other*/
+/* Quienes Somos */
+.guias_img{width:80px;
+   height:80px;}
+
 .col-3{
     width: 25px;
 }
@@ -48,7 +52,9 @@ body{
       margin: 2px;
      padding: 10px;
      height: 300px;
-} 
+}
+
+
 
 
 /* Portada */
