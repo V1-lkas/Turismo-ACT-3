@@ -16,7 +16,7 @@
                 <div class="container-fluid flex-row justify-content-lg-between">
                     <div>
                         <a class="navbar-brand" href="index.html">
-                            <img class="menu_logo d-inline-block align-top" src="img/logo-white-transparent.png" alt="logo" width="30" height="30">
+                            <img class="menu_logo d-inline-block align-top" src="img/logo-white-transparent.png" alt="logo">
                             <span class="menu_logo-text">Turismo la Cumbresita</span>
                         </a>
                     </div>
@@ -27,13 +27,13 @@
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="menu_button nav-link"  href="index.html">Inicio</a>
+                                    <a class="nav-link" id="menu_button"   href="index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="menu_button nav-link" href="quienes somos.html">Quienes somos</a>
+                                    <a class="nav-link" id="menu_button" href="quienes somos.html">Quienes somos</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="menu_button nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                                    <a class="nav-link dropdown-toggle" id="menu_button"  href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a class="dropdown-item" href="servicios.html#scrollspyHeading1">Alojamiento</a>
@@ -47,10 +47,10 @@
                                 </ul>
                                 </li>
                                 <li  class="nav-item">
-                                    <a class="menu_button nav-link" href="galeria.html">Galeria</a>
+                                    <a class="nav-link" id="menu_button"  href="galeria.html">Galeria</a>
                                 </li>
                                 <li class="nav-item active" aria-current="page">
-                                    <a class="menu_button nav-link" href="contacto.html">Contacto</a> 
+                                    <a class="nav-link" id="menu_button"  href="contacto.html">Contacto</a> 
                             
                                 </li>
                             </ul>
@@ -60,7 +60,7 @@
             </nav>
 
             <!-- carrousel portada -->
-            <div id="carouselExampleSlidesOnly" class=" carousel slide carousel-fade pt-lg-2 mt-5 portada" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3700">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade pt-lg-2 mt-5 portada" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3700">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/cumbrecita.jpg" class="d-block w-100  portada_img" alt="...">
@@ -75,55 +75,57 @@
             </div>
         </header>
 
-    <main class="container_main pt-5">
-        <div class="container">
+        <main class="container_main pt-5">
+            <div class="container">
 
-            <h1>Contactanos</h1>
-            <p>No dudes en dejar tu consulta</p>
+                <h1>Contactanos</h1>
+                <p>No dudes en dejar tu consulta</p>
 
-            <div class="container_form">
-                <form  action="https://formspree.io/f/mzbqqolg" method="post">
-                    <div class="mb-3">
-                        <label for="nombre">Nombre:</label>
-                            <input required placeholder="Escriba su nombre" id="nombre" name="nombreUsuario" type="text">
-                    </div>
-                    <div class="mb-3">
-                        <label for="apellido">Apellido:</label>
-                            <input required placeholder="Escriba su apellido" id="apellido" name="apellidoUsuario" type="text">
-                    </div>
-                    <div class="mb-3">    
-                        <label for="email exampleInputEmail1" class="form-label">Correo electrónico:</label>
-                            <input required placeholder="Escriba su e-mail" id="exampleInputEmail1" aria-describedby="emailHelp" type="email" name="mail" class="form-control">
-                            <div id="emailHelp" class="form-text">Su privacidad es importante para nosotros.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="basesycon">Acepto las bases y condiciones</label>
-                        <input type="checkbox" name="bases\_y\_condiciones" id="basesycon" value="acepta">
-                    </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    
-                </form>
+                <div class="container_form">
+                    <form  action="https://formspree.io/f/mzbqqolg" method="post">
+                        <div class="mb-3">
+                            <label for="nombre">Nombre:</label>
+                                <input required placeholder="Escriba su nombre" id="nombre" name="nombreUsuario" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido">Apellido:</label>
+                                <input required placeholder="Escriba su apellido" id="apellido" name="apellidoUsuario" type="text">
+                        </div>
+                        <div class="mb-3">    
+                            <label for="email" class="form-label">Correo electrónico:</label>
+                                <input required placeholder="Escriba su e-mail" id="email" aria-describedby="emailHelp" type="email" name="mail" class="form-control">
+                                <div id="emailHelp" class="form-text">Su privacidad es importante para nosotros.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="basesycon">Acepto las bases y condiciones</label>
+                            <input type="checkbox" name="bases\_y\_condiciones" id="basesycon" value="acepta">
+                        </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        
+                    </form>
+                </div>
+                <div class="container_redes">
+                <h2>Encontranos en nuestras redes:</h2>
+                <a href="index.html"><img src="img/Instagram.png" class="container_redes-log" alt=""></a>
+                <a href="index.html"><img src="img/Facebook.png" class="container_redes-log" alt=""></a>
+                <a href="index.html"><img src="img/Youtube.webp" class="container_redes-log" alt=""></a>
+                </div>
             </div>
-            <div class="container_redes">
-            <h2>Encontranos en nuestras redes:</h2>
-            <a href="index.html"><img src="img/Instagram.png" class="container_redes-log" alt=""></a>
-            <a href="index.html"><img src="img/Facebook.png" class="container_redes-log" alt=""></a>
-            <a href="index.html"><img src="img/Youtube.webp" class="container_redes-log" alt=""></a>
-            </div>
-        </div>
-    </main> 
-    <footer>
-        <div id="copy">
-            <div>
-              <id class= "fa fa-copyriaght" aria-hidden= "true" &Creado 2023 ></i>
-            ©creado 2023  Turismo La cumbrecita
-    </footer>   
+        </main>
 
-</div>
+        <footer>
+            <div id="copy">
+                <div>
+                    <i class= "fa fa-copyriaght" aria-hidden= "true" &Creado 2023 >©creado 2023  Turismo La cumbrecita</i>
+                </div>
+            </div>
+                
+        </footer>   
+
+    </div>
 </body>
-
 </html>

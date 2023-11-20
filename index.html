@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1.0">
-    <title>turismo CBA La Cumbrecita</title>
     <link rel="shortcut icon" href="icono-turismo.png" type="image/x-icon">
-   
-     <meta name="description" content="Encontra un lugar maravilloso para disfrutar">
-     <meta name="keywords" content=" cumbrecita,paisaje,verde,cascada,silencio,colores,peatonal">
-     <link rel="stylesheet" href="css/estilos.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+    <meta name="description" content="Encontra un lugar maravilloso para disfrutar">
+    <meta name="keywords" content=" cumbrecita,paisaje,verde,cascada,silencio,colores,peatonal">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+    <title>Turismo la Cumbrecita - Inicio</title>
 </head>
 
 <body>
-
     <div class="container-fluid p-lg-0">
-
-      
         <header class="container_header position-relative">
-            <nav class="menu navbar navbar-expand-sm bg-body-tertiary fixed-top">
+            <nav class="menu navbar-expand-sm fixed-top navbar">
                 <div class="container-fluid flex-row justify-content-lg-between">
                     <div>
                         <a class="navbar-brand" href="index.html">
-                            <img class="menu_logo d-inline-block align-top" src="img/278923824-5f4ce069-e9ca-4d5e-a8d8-101b8fd01862.png" alt="logo" width="30" height="30">
-                            Turismo la Cumbrecita
+                            <img class="menu_logo d-inline-block align-top" src="img/logo-white-transparent.png" alt="logo">
+                            <span class="menu_logo-text">Turismo la Cumbresita</span>
                         </a>
                     </div>
                     <div class="justify-content-end">
@@ -33,14 +29,18 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="menu_button nav-link"  href="index.html">Inicio</a>
+                                <li class="nav-item active" aria-current="page">
+                                    <a class=" nav-link"
+                                    id="menu_button" 
+                                    href="index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="menu_button nav-link" href="quienes somos.html">Quienes somos</a>
+                                    <a class=" nav-link" 
+                                    id="menu_button"  href="quienes somos.html">Quienes somos</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="menu_button nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                                    <a class=" nav-link dropdown-toggle"
+                                    id="menu_button"  href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a class="dropdown-item" href="servicios.html#scrollspyHeading1">Alojamiento</a>
@@ -54,10 +54,12 @@
                                 </ul>
                                 </li>
                                 <li  class="nav-item">
-                                    <a class="menu_button nav-link" href="galeria.html">Galeria</a>
+                                    <a class=" nav-link" 
+                                    id="menu_button" href="galeria.html">Galeria</a>
                                 </li>
-                                <li class="nav-item active" aria-current="page">
-                                    <a class="menu_button nav-link" href="contacto.html">Contacto</a> 
+                                <li class="nav-item">
+                                    <a class=" nav-link" 
+                                    id="menu_button" href="contacto.html">Contacto</a> 
                             
                                 </li>
                             </ul>
@@ -70,10 +72,10 @@
             <div id="carouselExampleSlidesOnly" class=" carousel slide carousel-fade pt-lg-2 mt-5 portada" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3700">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/cumbrecita.jpg" class="d-block w-100  portada_img" alt="...">
+                    <img src="img/cumbrecita.jpg" class="d-block w-100 portada_img" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/cumbrecita1.jpg" class="d-block w-100  portada_img" alt="...">
+                    <img src="img/cumbrecita1.jpg" class="d-block w-100 portada_img" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="img/Slide4.jpg" class="d-block w-100 portada_img" alt="...">
@@ -82,32 +84,30 @@
             </div>
         </header>
 
-<main class="container_main pt-5">
-    <div class="container">
+        <main class="container_main pt-5">
+            <div class="container">
+                    <section>
+                        <h1> La Cumbrecita</h1> 
+                    
+                        <p>La Cumbrecita es ese lugar especial ,mezcla de paisajes con mixturas de colores donde se despiertan numerosas  sensaciones que quedan guardadas para siempre en el corazón de cada visitante.</p>
 
-        <div> 
-            <h1> La Cumbrecita</h1> 
-        <section> 
-            <p>La Cumbrecita es ese lugar especial ,mezcla de paisajes con mixturas de colores donde se despiertan numerosas  sensaciones <br>que quedan guardadas para siempre en el corazón de cada visitante.</p>
-            
-        </section>
-        <p> Es un pequeño pueblo ubicado en el Valle de Calamuchita en las Sierras Grandes de la provincia de Córdoba, Argentina.Se localiza en el departamento Calamuchita.
+                        <p> Es un pequeño pueblo ubicado en el Valle de Calamuchita en las Sierras Grandes de la provincia de Córdoba, Argentina.Se localiza en el departamento Calamuchita. </p>
+                        <p>La Cumbrecita Se ubica al pie de las Sierras Grandes, en cercanías del cerro Champaqui el más alto de Córdoba, y está a 37 o 40 km al oeste de Villa General Belgrano.</p>
+                    </section>
 
+                <div class="container_map">
+                    <iframe src="https://google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.2179015887677!2d-64.7757209249006!3d-31.90067641982916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2cb187adae917%3A0xdca31d45fc2d2bc7!2sLa%20Cumbrecita!5e0!3m2!1ses-419!2sar!4v1699924796276!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>  
+        </main>
 
-La Cumbrecita Se ubica al pie de las Sierras Grandes, en cercanías del cerro Champaqui el más alto de Córdoba, y está a 37 o 40 km al oeste de Villa General Belgrano,cruza
-
-
-        </div>
+        <footer>
+            <div id="copy">
+                <div>
+                <i class= "fa fa-copyriaght" aria-hidden= "true" &Creado 2023 >©creado 2023  Turismo La cumbrecita</i>
+                </div>
+            </div> 
+        </footer>
     </div>    
-
-</main> 
-<footer>
-
-    <div id="copy">
-        <div>
-          <id class= "fa fa-copyriaght" aria-hidden= "true" &Creado 2023 ></i>
-            ©creado 2023  Turismo La cumbrecita</div>
-<a href="iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.2179015887677!2d-64.7757209249006!3d-31.90067641982916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2cb187adae917%3A0xdca31d45fc2d2bc7!2sLa%20Cumbrecita!5e0!3m2!1ses-419!2sar!4v1699924796276!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
-         </Footer>
 </body>
 </html>
