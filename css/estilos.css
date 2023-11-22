@@ -1,9 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
  body{
-  background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 9%, rgba(168,253,45,0.9220063025210083) 100%);
- }
+background: linear-gradient(0deg, white, #97C05C 100%);
+}
  *{
     box-sizing: border-box;
   }
@@ -26,7 +25,7 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 9%, rgba(168,253,45,0.92200
   margin: 5px;}
 
 body{
-    margin: 10px;
+    margin: 0px;
     font-family:'Roboto' Arial, Helvetica, sans-serif;    
 }
 
@@ -36,6 +35,8 @@ body{
 
 .row {display: -webkit-flex;
     display: flex;}
+
+.container_map{text-align: center;}
 
 /* Quienes Somos */
 .guias_img{width:80px;
@@ -48,11 +49,11 @@ body{
     -webkit-flex: 1;
     background-color: rgb(175, 241, 161);
     -ms-flex: 1;
-      flex: 1;
-      margin: 2px;
-     padding: 10px;
-     height: 300px;
-}
+    flex: 1;
+    margin: 2px;
+    margin-bottom: 30px;
+    padding: 5px;
+    height: auto;}
 
 
 
@@ -66,7 +67,8 @@ height: 45vw;}
 
 /* Contacto */
 
-.container_redes{padding:30px 0px;}
+.container_redes{padding:30px 0px;
+margin-left: 5%;}
 
 .container_redes-log{height: 3vw;
 width: auto;}
@@ -75,7 +77,9 @@ width: auto;}
   background-color:whitesmoke;
   padding: 5px 10px;
   border: 10px;
-  border-color: rgb(234, 234, 234);}
+  border-color: rgb(234, 234, 234);
+  margin-left: 30%;
+  margin-top: 20px;}
 
 .container_main{background-color: white;}
   
@@ -93,4 +97,22 @@ color: whitesmoke;
 text-shadow: 1px 1px 1.5px #071E22;}
 
 .nav-link{color:white;}
+
+/* Galeria */
+
+.container_img{margin: 0;}
+
+
+.container_img-v{
+height: 574px;
+width: 440px;
+margin: 0.2% auto;}
+
+.container_img-h{
+height: 290px;
+width: 534px;
+margin: 0.2% auto;
+}
+
+.container_main p{padding-left: 40px;}
 
