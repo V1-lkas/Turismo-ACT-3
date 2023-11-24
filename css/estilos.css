@@ -128,17 +128,18 @@ vertical-align: middle;
 width: 100%;}
 
 @media screen and (max-width: 800px) {
-  .column {
+  .gallery_column {
     flex: 50%;
     max-width: 50%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .column {
+  .gallery_column {
     flex: 100%;
     max-width: 100%;
   }
+  .portada_img{height: 300px;}
 }
 
 .container_main p{padding: 0px 30px;}
