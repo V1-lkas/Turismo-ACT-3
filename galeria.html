@@ -2,8 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
-    <meta name="viewport" content=" width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="description" content="Encontra un lugar maravilloso para disfrutar">
     <meta name="keywords" content=" cumbrecita,paisaje,verde,cascada,silencio,colores,peatonal">
     <link rel="stylesheet" href="css/estilos.css">
@@ -12,17 +11,17 @@
     <title>Tursimo la Cumbrecita - Galeria</title>
 </head>
 <body>
-    <div class="">
+    <div class="container-fluid p-lg-0">
         <header class="container_header position-relative">
-            <nav class="menu navbar navbar-expand-sm fixed-top">
+            <nav class="menu navbar navbar-expand-lg fixed-top">
                 <div class="container-fluid flex-row justify-content-lg-between">
                     <div>
                         <a class="navbar-brand" href="index.html">
-                            <img class="menu_logo d-inline-block align-top" src="img/logo-white-transparent.png" alt="logo" width="30" height="30">
+                            <img class="menu_logo d-inline-block align-text-top" src="img/logo-white-transparent.png" alt="logo" width="30" height="30">
                             <span class="menu_logo-text">Turismo la Cumbrecita</span>
                         </a>
                     </div>
-                    <div class="justify-content-end">
+                    <div >
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -84,57 +83,67 @@
                         <h1>Galería</h1>
                     </header>
                         <p>Te invitamos a dar un vistazo de lo que será tu visita en La Cumbrecita</p>
-                </section>
+                        <div class="container_btn">
+                            <a href="./contacto.html"><button class="container_btn-btn">¡Quiero reservar mis vacaciones!</button></a>
+                          </div>
+                    </section>
                 
                 <!-- imagenes verticales -->
-                <section class="container_img container text-center">
+                <!-- Esto estaba en el sectrtion de abajo class="container_img container text-center" -->
+                 <section class="gallery">
+                    <div class="gallery_row">
+
+                    <div class="gallery_column">
+                        <img class="container_img-v" src="img/galeria1-vertical.jpg" alt="">
+                        
+                        <img class="container_img-h" src="img/galeria3-horizontal.jpeg" alt="">
                     
-                    <img class="container_img-v" src="img/galeria1-vertical.jpg" alt="">
+                        
+                        <img class="container_img-v" src="img/galeria2-vertical.jpg" alt="">
+
+                         
+                        <img class="container_img-h" src="img/galeria4-horizontal.jpeg" alt="">
+
+                        <img class="container_img-v" src="img/galeria3-vertical.jpg" alt="">
+
+                    </div>
+                    
+                    
+                    
+                    <div class="gallery_column">
+
+                        <img class="container_img-h" src="img/galeria1-horizontal.jpeg" alt="">
+
+                        <img class="container_img-v" src="img/galeria4-vertical.jpg" alt="">
                         
                         
-                    <img class="container_img-v" src="img/galeria2-vertical.jpg" alt="">
+                        
+                        <img class="container_img-v" src="img/galeria5-vertical.jpg" alt="">
                         
                         
+                        <img class="container_img-h" src="img/galeria2-horizontal.jpeg" alt="">
+
+                        
+                        <img class="container_img-v" src="img/galeria6-vertical.webp" alt="">
+                        
+                        
+                        <!-- imagenes horizontales -->
+                        
+                        
+                    </div>
+                    
+                    
+                 
+                    
                    
                     
-                    <img class="container_img-v" src="img/galeria3-vertical.jpg" alt="">
-                    
-                    
-                    <img class="container_img-v" src="img/galeria4-vertical.jpg" alt="">
-                    
-                    
-                    
-                    <img class="container_img-v" src="img/galeria5-vertical.jpg" alt="">
-                    
-                    
-                    
-                    <img class="container_img-v" src="img/galeria6-vertical.webp" alt="">
-                    
-                    
-                    <!-- imagenes horizontales -->
-                    
-                    
-                    <img class="container_img-h" src="img/galeria1-horizontal.jpeg" alt="">
-                    
-                    
-                    
-                    <img class="container_img-h" src="img/galeria2-horizontal.jpeg" alt="">
-                    
-                    
-                    
-                    <img class="container_img-h" src="img/galeria3-horizontal.jpeg" alt="">
-                    
-                    
-                    
-                    <img class="container_img-h" src="img/galeria4-horizontal.jpeg" alt="">
-                    
-                    
+                </div>
                 </section>
             </main>
             <footer>
                 <div id="copy">
                     <div>
-                        <i class= "fa fa-copyriaght" aria-hidden= "true" &Creado 2023>                ©creado 2023  Turismo La cumbrecita
+                        <i class= "fa fa-copyriaght" aria-hidden= "true" &Creado 2023>©creado 2023  Turismo la Cumbrecita - Creado por estudiantes de la Escuela de Oficios
                         </i>
                     </div>
                 </div>
