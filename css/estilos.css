@@ -95,12 +95,14 @@ width: auto;}
 /* Nav */
 
 .menu{background-color: #97C05C; 
-max-width: 100%;}
+max-width: 99%;}
+
 #menu_button{color: white;
 font-weight:500;
 text-shadow: 1px 1px 1.5px #071E22 ;}
+
 .menu_logo{height:24px;
-  width: 30px;
+  width:auto;
 }
 .menu_logo-text{font-weight: 600;
 color: whitesmoke;
