@@ -24,8 +24,15 @@ h3 {
 }
 
 p {
-  font-size: 140%;
-  margin: 5px;
+  font-size: 23px;
+  margin: 5px 1%;
+  padding: 0px 30px;
+}
+
+@media screen and (max-width: 600px)  {
+  p{padding: 10px;
+  font-size: 17px;}
+  
 }
 
 body {
@@ -69,25 +76,15 @@ body {
 
 .guias {
   text-align: center;
+  background-color: rgb(175, 241, 161);
+  margin-bottom: 20px;
 }
 
 .guias p {
   padding-left: 0;
 }
 
-.col-3 {
-  width: 25px;
-}
-.column {
-  -webkit-flex: 1;
-  background-color: rgb(175, 241, 161);
-  -ms-flex: 1;
-  flex: 1;
-  margin: 2px;
-  margin-bottom: 30px;
-  padding: 5px;
-  height: auto;
-}
+
 
 /* Contacto */
 
@@ -192,10 +189,6 @@ body {
   .portada_img {
     height: 300px;
   }
-}
-
-.container_main p {
-  padding: 0px 30px;
 }
 
 /* Servicios */
