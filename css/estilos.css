@@ -49,6 +49,10 @@ body {
   width: fit-content;
 }
 
+@media screen and (max-width: 600px) {
+  .portada_img{height: 212px;}
+}
+
 /* inicio */
 
 .row {
@@ -186,9 +190,6 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-  .portada_img {
-    height: 300px;
-  }
 }
 
 /* Servicios */
@@ -199,6 +200,10 @@ body {
   width: 350px;
 }
 
+@media screen and (max-width: 600px) {
+  .serv_carrousel1 img{height:220px;}
+  
+}
 .act-img {
   object-fit: cover;
   height: 300px;
