@@ -49,8 +49,8 @@ body {
 }
 
 @media screen and (max-width:600px) {
-.container-fluid{padding-left: 0px;
-padding-right: 0px;}}  
+.container-fluid{padding-left: 0px!important;
+padding-right: 0px!important; }}  
 
 
 /* Portada */
