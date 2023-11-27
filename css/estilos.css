@@ -41,6 +41,18 @@ body {
   max-width: 100%;
 }
 
+.container_main {
+  background-color: white;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width:600px) {
+.container-fluid{padding-left: 0px;
+padding-right: 0px;}}  
+
+
 /* Portada */
 
 .portada_img {
@@ -70,6 +82,11 @@ body {
 .container_map iframe {
   width: 100%;
   height: 400px;
+}
+
+@media screen and (max-width:600px) {
+  .container_map{width:90%;}
+  
 }
 
 /* Quienes Somos */
@@ -116,12 +133,7 @@ body {
   .container_formulario{width: 98%;}
 }
 
-.container_main {
-  background-color: white;
-  width: 99%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* Nav */
 
@@ -201,9 +213,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .serv_carrousel1 img{height:220px;}
-  
+.serv_carrousel1 img{object-fit: cover;
+height: 165px;
+width: 270px;}
 }
+
 .act-img {
   object-fit: cover;
   height: 300px;
