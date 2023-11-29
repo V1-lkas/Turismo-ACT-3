@@ -209,7 +209,7 @@ padding-right: 0px!important; }}
 .serv_carrousel1 img {
   object-fit: cover;
   height: 350px;
-  width: 350px;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
